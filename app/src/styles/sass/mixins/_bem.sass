@@ -1,0 +1,14 @@
+// ----------
+// Simplified BEM mixing
+// ----------
+
+// Creates element class
+=e($name)
+  @at-root #{&}__#{$name}
+    @content
+
+
+// Creates modifier class
+=m($name)
+  @at-root #{&}--#{$name}
+    @content

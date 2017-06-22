@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+
+# Custom
+.DS_Store
+.idea
+app/build/
